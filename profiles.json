@@ -1,0 +1,105 @@
+// **Group members profiles**   
+// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
+	
+window.others = {
+  "posts" : [
+      {
+        "avatar": "avatars/avatar_20.png",
+        "username": "Annaaa",
+        "text": "Hi everyone! My name is Anna and I'm a second year Criminology major at UCI! I love going on hikes, trying out new boba places, and hanging out with friends! I also like to play ukulele in my spare time and listen to new music! I LOVE K-dramas, K-drama OSTs and reading Webtoons too! I'm think I'm pretty extroverted and speak fluent sarcastic lol! I'm aiming to go to graduate school after I finish college. Nice to meet you guys! :D",
+        "superlikes": [18000, 45000, 80000, 95000, 150000],
+	"likes": [50000, 90000, 13000]
+      },
+      {
+        "avatar": "avatars/avatar_63.png",
+        "username": "Mark",
+        "text": "Hey, I'm Mark. I’m currently undecided but I’m thinking of switching into the math-econ program. Some things about me are that I go to UCSD, love hockey, and am really into music. I play the guitar and am currently trying to learn the drums and I’m also thinking about starting a band. I'm taking an intro psych class and will probably need extra credit by the end of the quarter LOL",
+		"superlikes": [20000, 50000, 100000, 120000],
+	"likes": [35000, 60000, 90000, 105000]
+      },
+	  {
+        "avatar": "avatars/avatar_3.png",
+        "username": "Jade",
+        "text": "Hey my name is Jade and I am a first year at UC Santa Barbara. I am hoping to make lots of friends this year and spend more time at the beach. I love exploring new places and am quite a night owl. I love going on late night boba runs and watching movies :) Mental health awareness is really important to me which is why I want to either major or minor in Psychology.",
+        "superlikes": [18000, 50000, 88000, 110000, 97000],
+	"likes": [12000, 41000, 67500]
+      },
+      {
+        "avatar": "avatars/avatar_1.png",
+        "username": "Gabi",
+        "text": "Hello fellow study participants! My name is Gabi! I'm an anthropology major from LA, but my whole family is from Ukraine! I can speak Russian, and I'm also trying to learn Spanish. I'm really interested in environmental science and intersectional feminism, and I really want to get a tattoo one day. I also have a pet cat, and even though I like dogs and cats, I think I prefer cats a little more. Thanks for reading this far!",
+        "superlikes": [25000, 45000, 88000],
+	"likes": [11500, 33000, 61000, 71000, 79000]
+      },
+      {
+        "avatar": "avatars/avatar_7.png",
+        "username": "Jess",
+        "text": "Hi! My name is Jessica, but everyone calls me Jess. I’m a second year Poli Sci student here at UCI and I’m also minoring in criminology. I love to read and will spend hours at Barnes and Noble or the library. I’m also a total Disney fan and will watch anything Marvel related! I’m excited to earn some much needed extra credit.",
+        "superlikes": [19000, 50000, 95000, 110000],
+	"likes": [12000, 37000, 80000, 83000, 10000]
+      }, 
+      {
+        "avatar": "avatars/avatar_50.png",
+        "username": "Alex",
+        "text": "Hi everyone! I’m Alex and I am a business major and a psych minor. I am still uncertain what path I want to take after graduation however I am enjoying the classes I am in. Some facts about me: I play basketball in my free time and I like watching sports. I pretty much like all genres of music but my favorites are rap, EDM, and rock.",
+        "superlikes": [40000, 70000, 120000],
+	"likes": [19000, 62500, 90000]
+      },
+      {
+        "avatar": "avatars/avatar_42.png",
+        "username": "Arjun",
+        "text": "My name's Arjun, I study Artificial Intelligence at UCLA. Also I like to use my free time to build PCs and mechanical keyboards. I also collect comics and play Dungeons & Dragons. I'm kind of a nerd I guess? lol",
+        "superlikes": [10000, 12000, 40000, 80000, 120000],
+		"likes": [11000, 37000, 97000]
+      },
+          {
+        "avatar": "avatars/avatar_18.png",
+        "username": "Jessicam",
+        "text": "Hello! My name is Jessica S, and I am a third year student at UCI. I am currently majoring in biology, and hope to become a neurologist one day. In my free time I love to go outdoors, hike, workout, and play with my dogs! I am very passionate about photography as well, and love to document all of my outdoor adventures. I also love my friends and family and enjoy spending time with them.",
+        "superlikes": [10000, 12000, 40000, 80000, 120000],
+		"likes": [11000, 37000, 97000]
+      },
+      {
+        "avatar": "avatars/avatar_41.png",
+        "username": "suns_right",
+        "text": "I am Aleanna Skinner, a third year Conservation and Resource Studies major at Berkeley. In my free time I like to attend musical productions. My favorite production so far has been Come From Away. I hope to one day get to attend a live showing of Natasha Pierre and the Great Comet of 1812 which I think was severely underrated and as a result had its lifespan cut too short.",
+        "superlikes": [10000, 12000, 40000, 80000, 120000],
+		"likes": [11000, 37000, 97000]
+      },
+      {
+        "avatar": "avatars/avatar_38.png",
+        "username": "Di_lor",
+        "text": "Hi! My name is Diane and I am a Civil Engineering Major at UC Davis. My hope is to one day get involved in public transportation infrastructure. My hobbies include crocheting and painting. I also draw in my spare time and I enjoy theming my paintings around the idea of “ghost cats” lol. I enjoy getting involved in many crafts though in my free time, so I may have some new interest at any moment!",
+        "superlikes": [10000, 12000, 40000, 80000, 120000],
+		"likes": [11000, 37000, 97000]
+      },
+      {
+        "avatar": "avatars/avatar_37.png",
+        "username": "Kuroromi",
+        "text": "I’m Alezae! A Sociology major at UC Riverside. I like to travel to different cities and explore the area. I mainly visit the L.A. area to visit friends and try out new food! I am currently a part of a sorority (<3 Alpha Delta Pi) and I enjoy attending raves. You can probably find me at most major events right now, so if you do say hi and we can exchange kandi!",
+        "superlikes": [10000, 12000, 40000, 80000, 120000],
+		"likes": [11000, 37000, 97000]
+      },
+      {
+        "avatar": "avatars/avatar_67.png",
+        "username": "Vicsvaporub",
+        "text": "I am Victor, a third year transfer to the CS major at UC Irvine. I am recently returning to school after a long career working as a piercer in the OC area. I’ve had a lot of fun experiences in my time piercing and would love to talk about it! I decided to come back to university because I wanted to focus on long term career goals. My current hobbies include wine tasting and snowboarding.",
+        "superlikes": [10000, 12000, 40000, 80000, 120000],
+		"likes": [11000, 37000, 97000]
+      },
+      {
+        "avatar": "avatars/avatar_56.png",
+        "username": "DavidsonIan",
+        "text": "Hi, I’m David. A fourth year Biology major at UC Riverside. I volunteer in my free time at the local clinics and I hope to become an RN in the future, but I am still in the process of preparing for the TEAS. In my free time I paint digital art and I take commissions for various things such as character drawings and emotes for Discord and Twitch!",
+        "superlikes": [10000, 12000, 40000, 80000, 120000],
+		"likes": [11000, 37000, 97000]
+      },  
+	  {
+        "avatar": "avatars/avatar_60.png",
+        "username": "Taremine",
+        "text": "I’m an undergraduate student studying astrophysics at UCLA. My passion in astrophysics began in my junior high school. I love to study life cycles of stars and planets and hope to make it my career in the future. I always want to have one of my own stars in the universe, and I wish to buy one from NASA in the next few years. This would be my life goal and will become the main motivation for me in the next few years!",
+        "superlikes": [10000, 12000, 40000, 80000, 120000],
+		"likes": [11000, 37000, 97000]
+      }, 
+    ]
+  };
