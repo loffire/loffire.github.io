@@ -41,7 +41,7 @@ window.others = {
       {
         "avatar": "avatars/avatar_50.png",
         "username": "Alex",
-        "text": "Hi everyone! I’m Alex and I am a business major and a psych minor. I am still uncertain what path I want to take after graduation however I am enjoying the classes I am in. Some facts about me: I play basketball in my free time and I like watching sports. I pretty much like all genres of music but my favorites are rap, EDM, and rock.",
+        "text": "Hi everyone! I’m Alex and I am a business major and a psych minor at santa cruz. I am still uncertain what path I want to take after graduation however I am enjoying the classes I am in. I play basketball in my free time and I like watching sports. I pretty much like all genres of music but my favorites are rap, EDM, and rock.",
         "superlikes": [40000, 70000, 120000],
 	"likes": [19000, 62500, 90000]
       },
